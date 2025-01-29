@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+nav.headerbar {
+    border: 2px solid black;
+    border-radius: 31px;
+    width: 100% - 30px;
+    height: 40px;
+    margin: 15px;
+    padding: 10px;
+}
+
+ul.headerbar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+li.headerbar {
+    list-style: none;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: "Outfit", monospace;
+    margin: 0 20px;
+}
+
+a.headerbar {
+    text-decoration: none;
+    color: black;
+    padding: 0 8px;
+}
+
+a.headerbar:hover {
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+.bordered {
+    border-radius: 8px;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 4px;
+}
+
+body {
+    font-family: "Lexend";
+    font-size: 14pt;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 10px 10%;
+    padding: 10px;
+}
