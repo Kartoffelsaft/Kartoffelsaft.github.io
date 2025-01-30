@@ -55,6 +55,33 @@ tbody.portfolio-table > tr > td:nth-of-type(2) {
     color: #999;
 }
 
+.social-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.social-button {
+    display: inline;
+}
+a.social-button > div {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin: 10px;
+}
+img.social-button-tight {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+img.social-button-loose {
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+}
+
 body {
     font-family: "Lexend";
     font-size: 14pt;
