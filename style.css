@@ -68,3 +68,12 @@ article {
     margin: 10px 10%;
     padding: 10px;
 }
+
+article > img {
+    border-radius: 8px;
+    border: 2px solid black;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
