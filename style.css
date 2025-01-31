@@ -45,10 +45,14 @@ a.headerbar:hover {
 
 table.portfolio-table {
     width: 100%;
+    border-spacing: 0;
 }
-
 tbody.portfolio-table > tr > td:nth-of-type(2) {
     width: 30ch;
+    text-align: right;
+}
+tbody.portfolio-table > tr:nth-of-type(even) {
+    background-color: #eee;
 }
 
 .portfolio-table > tr > td > time {
